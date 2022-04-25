@@ -1,0 +1,22 @@
+{
+    "bracketSpacing": true,
+    "singleQuote": true,
+    "jsxSingleQuote": true,
+    "tsxSingleQuote": true,
+    "doubleQuote": false,
+    "printWidth": 80,
+    "proseWrap": "always",
+    "semi": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "overrides": [
+        {
+            "files": ["src/*.ts", "src/*.tsx"],
+            "options": {
+                "singleQuote": true,
+                "jsxSingleQuote": true,
+                "tsxSingleQuote": true
+            }
+        }
+    ]
+}
